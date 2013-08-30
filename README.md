@@ -1,4 +1,4 @@
-# Scajax
+# Scajax {<img src="https://travis-ci.org/menuitem/scajax.png?branch=master" alt="Build Status" />}[https://travis-ci.org/menuitem/scajax]
 
 This gem adds ajax functionality to generated scaffold.
 
