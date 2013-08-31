@@ -1,28 +1,33 @@
 Description:
+    
     This gem adds basic ajax functionality to generated scaffold.
 
 ## Usage
 
+    rails g scajax [RESOURCE_NAME]
+
 Example:
 
-add scajax to your project Gemfile
+add scajax to your application's Gemfile:
 
-    gem 'scajax', git: 'git@github.com:menuitem/scajax.git'
+    gem 'scajax'
+
+or for latest version of the gem add:
+
+	gem 'scajax', git: 'git@github.com:menuitem/scajax.git'	
 
 and run 'bundle' to install this gem in your project.
 
     $ bundle
 
-Generate new scaffold called e.g. cats:
+Generate new scaffold called e.g posts:
 
-    $ rails g scaffold cats name color skills:text
+    $ rails generate scaffold post title body:text published:boolean
 
 Don't forget to run migration:
 
     $ rake db:migrate
 
-Generate ajax for cats scaffold with scajax generator
+Generate ajax for posts scaffold with scajax generator
 
-    $ rails g scajax cats
-
-Open your project in a browser.
+    $ rails g scajax post
