@@ -69,7 +69,7 @@ Open your project in a browser.
 
 4. Generate new scaffold called e.g. posts:
 
-    $ rails generate scaffold post title body:text published:boolean --no-styelsheets
+    $ rails generate scaffold post title body:text published:boolean --no-stylesheets
 
 5. Don't forget to run migration:
 
