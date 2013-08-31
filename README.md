@@ -1,7 +1,7 @@
 # Scajax [![Build Status](https://travis-ci.org/menuitem/scajax.png?branch=master)](https://travis-ci.org/menuitem/scajax) 
 
 
-This gem adds ajax functionality to generated scaffold.
+This gem adds basic ajax functionality to generated scaffold in rails.
 
 ## Installation
 
