@@ -8,29 +8,31 @@ Add this line to your application's Gemfile:
 
     gem 'scajax'
 
-or for latest version of the gem add:
+or for the latest version of the gem add:
 
     gem 'scajax', git: 'git@github.com:menuitem/scajax.git'
 
-And then execute:
+And then execute bundle:
 
     $ bundle
 
-Also you can  install it yourself in your system gems as:
+Also you can install it yourself in your system gems as:
 
     $ gem install scajax
 
 ## Usage
 
-	$ rails g scajax [RESOURCE_NAME]
+    $ rails g scajax [RESOURCE_NAME]
+
 
 ### Quick Simple Example:
 
+
 1. Add scajax to your application's Gemfile:
 
-    gem 'scajax'
+		gem 'scajax'
 
-2. Run 'bundle' to install this gem in your project.
+2. Run 'bundle' to install this gem in your project:
 
     $ bundle
 
@@ -42,7 +44,7 @@ Also you can  install it yourself in your system gems as:
 
     $ rake db:migrate
 
-5. Generate ajax for posts scaffold with scajax generator
+5. Generate ajax for posts scaffold with scajax generator:
 
     $ rails g scajax post
 
@@ -56,7 +58,7 @@ Open your project in a browser.
 
 	gem 'twitter-bootstrap-rails'
 
-2. Run 'bundle' to install gems in your project.
+2. Run 'bundle' to install gems in your project:
 
     $ bundle
 
@@ -95,7 +97,7 @@ Refresh your browser (F5).
     gem 'scajax'
     gem 'zurb-foundation'
 
-2. And run 'bundle' to install gems in your project.
+2. And run 'bundle' to install gems in your project:
 
     $ bundle
 
@@ -111,7 +113,7 @@ Refresh your browser (F5).
 
     $ rake db:migrate
 
-6. Generate ajax for posts scaffold with scajax generator
+6. Generate ajax for posts scaffold with scajax generator:
 
     $ rails g scajax post
 
