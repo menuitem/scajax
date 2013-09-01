@@ -53,6 +53,7 @@ Open your project in a browser.
 1. Add to your application's Gemfile:
 
 	gem 'scajax'
+
 	gem 'twitter-bootstrap-rails'
 
 2. Run 'bundle' to install gems in your project.
