@@ -59,7 +59,7 @@ Open your project in a browser.
     gem 'scajax'
     gem 'twitter-bootstrap-rails'
 
-2. And run 'bundle' to install gems in your project.
+2. Run 'bundle' to install gems in your project.
 
     $ bundle
 
