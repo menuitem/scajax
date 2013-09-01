@@ -52,8 +52,8 @@ Open your project in a browser.
 
 1. Add to your application's Gemfile:
 
-    gem 'scajax'
-    gem 'twitter-bootstrap-rails'
+	gem 'scajax'
+	gem 'twitter-bootstrap-rails'
 
 2. Run 'bundle' to install gems in your project.
 
@@ -114,9 +114,7 @@ Refresh your browser (F5).
 
     $ rails g scajax post
 
-
 Open your project in a browser.
-
 
 (7) If you have somehow file 'scaffolds.css.scss' and you don't use it just delete it:
 
