@@ -83,9 +83,8 @@ Open your project in a browser.
 
 Open your project in a browser.
 
-(8) If you have somehow file 'scaffolds.css.scss' and you don't use it just delete it:
-
-            $ rm app/assets/stylesheets/scaffolds.css.scss
+(8.) If you have somehow file 'scaffolds.css.scss' and you don't use it just delete it:
+        $ rm app/assets/stylesheets/scaffolds.css.scss
 
 Refresh your browser (F5).
 
@@ -119,8 +118,7 @@ Refresh your browser (F5).
 Open your project in a browser.
 
 (7) If you have somehow file 'scaffolds.css.scss' and you don't use it just delete it:
-
-            $ rm app/assets/stylesheets/scaffolds.css.scss
+        $ rm app/assets/stylesheets/scaffolds.css.scss
 
 Refresh your browser (F5). 
 
