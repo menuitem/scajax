@@ -30,11 +30,7 @@ Also you can  install it yourself in your system gems as:
 
     gem 'scajax'
 
-or for latest version of the gem add:
-
-    gem 'scajax', git: 'git@github.com:menuitem/scajax.git'	
-
-2.  Run 'bundle' to install this gem in your project.
+2. Run 'bundle' to install this gem in your project.
 
     $ bundle
 
