@@ -116,7 +116,7 @@ class ScajaxGenerator < Rails::Generators::NamedBase
 		file_in_array = IO.readlines("app/views/#{plural_name}/index.html.erb")
 		start_copy, stop_copy = 0
 		file_in_array.each_index do |i|
-			if (file_in_array[i].include?("@#{plural_name.singularize}"))
+			if (file_in_array[i].include?("@#{plural_name}.each"))
 				start_copy = i+1
 			end
 			if (file_in_array[i].include?("<% end %>"))
